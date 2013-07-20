@@ -1,0 +1,26 @@
+<types>
+    <type id="spaceship">
+        <wighawag.core.AssetComponent assetId="spaceship" scale="false" /> <!-- TODO add width height here ? -->
+        <wighawag.core.EntityComponentProvider>
+            <wighawag.game.cupofcoffee.model.PlayerActionComponent />
+            <wighawag.game.cupofcoffee.model.PlayerPhysicsComponent />
+            <wighawag.game.cupofcoffee.model.SeparateAxisVelocityComponent />
+            <wighawag.core.StateComponent args="idle" />
+        </wighawag.core.EntityComponentProvider>
+        <wighawag.core.EntityTypeParameters>
+            <param name="numLifes" type="Int" value="3" />
+        </wighawag.core.EntityTypeParameters>
+    </type>
+
+    <type id="asteroid">
+        <wighawag.core.AssetComponent assetId="asteroid" scale="false" /> <!-- TODO add width height here ? -->
+        <wighawag.core.EntityComponentProvider>
+            <!--<wighawag.game.cupofcoffee.model.AsteroidPhysicsComponent /> -->
+            <wighawag.game.cupofcoffee.model.SeparateAxisVelocityComponent />
+            <wighawag.core.StateComponent args="idle" />
+        </wighawag.core.EntityComponentProvider>
+        <wighawag.core.EntityTypeParameters>
+            <param name="startVelocity" type="Float" value="2" />
+        </wighawag.core.EntityTypeParameters>
+    </type>
+</types>

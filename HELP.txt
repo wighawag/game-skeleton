@@ -1,0 +1,33 @@
+This a game skeleton for showing how to use wighawag libraries and the reason behind them
+
+the basic idea is to allow to just think about the game model and not about renderring.
+
+For most basic game it should work pretty well.
+
+A model is a set of systems and entities.
+
+a system is a model's compoenent and has access to all entities of the model as well as other system if desired.
+By making the system "implements Updatable" the system will also be called whenever the model is asked to be updated (usually every frame)
+
+You can have:
+- a controller system in charge of translating game controller input into model action.
+- AI system in charge of updating AI character behavior
+- a physics system in charge of updaating entities in accordance with physical laws
+
+All of these system will act on a subset fo all entities.
+They will be concerned only with the entities that have the correct components.
+For example, AI will not take care of the player entity since this entity will not have an "AI Component"
+The Controller system will most likely only take care of one entity in a simple single player game
+the physical system will only be able to deal with entities that have a placement component as well as some velocity component or other required one (collision component....)
+
+These entity components can also define specific data or behaviour for each entity.
+
+
+This set of system, entity and component is all part of the model of the game. It can be run without displaying anything on the screem
+
+In order to display what is going on, a view need to be setup.
+
+A view is actually quite similar to a system since it also take care of the model and its entities as well as their components. The most basic view will be able to display only the entities that have a placement component and an asset component.
+
+ The asset component by being the same for a set of entities (asteroid for example) will mostly likely be an entity type component whihc share its values across a numbe rof entities.
+

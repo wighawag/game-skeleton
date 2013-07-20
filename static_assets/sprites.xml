@@ -1,0 +1,16 @@
+<sprites>
+
+    <sprite id="asteroid" textureAtlas="hasteroid" >
+        <animation id="idle" defaultDuration="200" >
+            <frame subTexture="asteroid1"  />
+        </animation>
+    </sprite>
+
+
+    <sprite id="spaceship" textureAtlas="hasteroid" >
+        <animation id="idle" defaultDuration="200" >
+            <frame subTexture="spaceship1"  />
+        </animation>
+    </sprite>
+
+</sprites>

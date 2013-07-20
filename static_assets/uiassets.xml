@@ -1,0 +1,4 @@
+<TextureAtlas id='ui.9'>
+    <SubTexture name='greenButton' x='0'  y='0' width='28' height='34'/>
+    <SubTexture name='redButton' x='28'  y='0' width='28' height='34'/>
+</TextureAtlas>

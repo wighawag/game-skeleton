@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container xmlns:params="params" xmlns:content="content"
+           layout="wighawag.ui.layout.LinearLayout"
+           params:direction="vertical"
+           params:horizontalPadding="30"
+           params:verticalPadding="30"
+           params:spacing="30"
+           params:fillHorizontally="false"
+           params:fillVertically="false"
+           params:verticalAlignment="top"
+           params:horizontalAlignment="center">
+
+    <UIElement id="playButton"
+               type="wighawag.ui.element.Button"
+               content:textId="Play" />
+
+    <UIElement id="optionsButton"
+               type="wighawag.ui.element.Button"
+               content:textId="Options"  />
+</Container>

@@ -1,0 +1,4 @@
+<TextureAtlas id='hasteroid'>
+    <SubTexture name='asteroid1' x='0'  y='0' width='48' height='48'/>
+    <SubTexture name='spaceship1' x='48'  y='0' width='28' height='28'/>
+</TextureAtlas>

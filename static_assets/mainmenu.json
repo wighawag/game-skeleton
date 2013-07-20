@@ -1,0 +1,17 @@
+{
+    "playButton" : {
+        "enabledAssetId"    : "greenButton",
+        "clickedAssetId"    : "greenButton",
+        "hoverAssetId"      : "redButton",
+        "disabledAssetId"   : "greenButton",
+        "font"              : "afont"
+    },
+
+    "optionsButton" : {
+        "enabledAssetId"    : "redButton",
+        "clickedAssetId"    : "redButton",
+        "hoverAssetId"      : "greenButton",
+        "disabledAssetId"   : "redButton",
+        "font"              : "afont"
+    }
+}

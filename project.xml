@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="cupofcoffee" package="wighawag.game.cupofcoffee" version="0.0.1" company="Wighawag" />
+	<app path="target/openfl" file="Application" main="wighawag.game.cupofcoffee.GameMain" />
+
+	<window width="800" height="600" if="desktop" />
+    <window fps="30" />
+
+	<set name="SWF_VERSION" value="11.6" ></set>
+	<haxedef name="fdb" if="flash"/>
+
+    <assets path="runtime_assets" rename="assets" include="*" exclude="nme.svg" ></assets>
+	<assets path="static_assets" rename="assets" include="*" exclude="flash.svg" />
+
+    <source path="src" />
+
+    <haxelib name="openfl" version="1.0.4"/>
+    <haxelib name="msignal" version="1.2.1"/>
+    <haxelib name="polygonal-ds" version="1.4.0"/>
+    <haxelib name="svg" version="1.0.7"/>
+
+    <haxelib name="wighawag-application" version="0.0.1" />
+    <haxelib name="wighawag-asset" version="0.0.1" />
+    <haxelib name="wighawag-report" version="0.0.1" />
+    <haxelib name="wighawag-ui" version="0.0.1" />
+    <haxelib name="wighawag-statemachine" version="0.0.1" />
+    <haxelib name="wighawag-remote" version="0.0.1" />
+    <haxelib name="wighawag-system" version="0.0.1" />
+    <haxelib name="wighawag-components-core" version="0.0.1" />
+    <haxelib name="wighawag-controls" version="0.0.1"/>
+    <haxelib name="wighawag-view" version="0.0.1"/>
+    <haxelib name="wighawag-gpu" version="0.0.2"/>
+    <haxelib name="wighawag-game-utils" version="0.0.1"/>
+    <haxelib name="wighawag-console" version="0.0.1"/>
+
+    <!-- TODO add this automatically via wighawag-gpu or stage3d-glsl-wrapper ? -->
+        <!-- TODO add this only if you use glsl2agal directive -->
+        <haxeflag name="-swf-lib" value="glsl2agal.swf" if="flash" />
+        <haxedef name="glsl2agal" if="flash" />
+
+        <haxeflag name="-swf-lib" value="agalminiassembler.swf" if="flash"/>
+
+</project>

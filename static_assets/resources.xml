@@ -1,0 +1,18 @@
+<resources pathPrefix="assets/">
+
+    <resource id="hasteroid.atlas" path="hasteroid.xml" type="text" size="0"/>
+    <resource id="hasteroid.texture" path="hasteroid.png" type="bitmap" size="0"/>
+
+    <resource id="sprites.library" path="sprites.xml" type="text" size="0"/>
+
+    <resource id="entityTypes" path="entityTypes.xml" type="text" size="0"/>
+
+
+    <!-- UI -->
+    <resource id="ui.9.atlas" path="uiassets.xml" type="text" size="0"/>
+    <resource id="ui.9.texture" path="uiassets.png" type="bitmap" size="0"/>
+
+    <resource id="afont.font" path="afont.fnt" type="text" size="0"/>
+    <resource id="afont.bitmap" path="afont.png" type="bitmap" size="0"/>
+
+</resources>
