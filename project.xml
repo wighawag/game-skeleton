@@ -31,7 +31,7 @@
     <haxelib name="wighawag-view" version="0.0.2"/>
     <haxelib name="wighawag-gpu" version="0.0.2"/>
     <haxelib name="wighawag-game-utils" version="0.0.2"/>
-    <haxelib name="wighawag-console" version="0.0.1"/>
+    <haxelib name="wighawag-console" version="0.0.2"/>
 
     <!-- TODO add this automatically via wighawag-gpu or stage3d-glsl-wrapper ? -->
         <!-- TODO add this only if you use glsl2agal directive -->
