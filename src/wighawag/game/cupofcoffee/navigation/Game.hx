@@ -98,7 +98,7 @@ class Game implements State<NavigationState>{
         systems.push(physicsEngine);
         systems.push(new SpatialHashingSystem());
 
-        worldModel = new Model();                draw
+        worldModel = new Model();                
         worldModel.setup(systems);
 
         //setup the view
